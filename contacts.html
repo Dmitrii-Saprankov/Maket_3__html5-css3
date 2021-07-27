@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="date=no">
+    <meta name="format-detection" content="address=no">
+    <meta name="format-detection" content="email=no">
+    <title>Contacts</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link type="image/x-icon" rel="shortcut icon" href="images/mobile-phone.svg">
+</head>
+
+<body>
+    <section class="container top__box">
+        <ul class="top__header">
+            <li><a href="index.html"><img src="images/Navigation.svg" alt="Logo navigation"></a></li>
+            <li><a href="contacts.html"><img src="images/address-book.svg" alt="Logo address book"></a></li>
+        </ul>
+    </section>
+
+    <section class="contacts-us">
+        <div class="container">
+            <h2 class="contacts-us__heading">Contact Us</h2>
+            <p class="contacts-us__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. </p>
+        </div>
+    </section>
+
+    <form action="#" class="contact-form container">
+        <div class="contact-card">
+            <img src="images/contact_img.svg" alt="contacts" class="contact-card__img">
+
+            <div class="contact-card__address">
+                <h4 class="contact-card__heading contact-card__heading_top">Address</h4>
+                <p class="contact-card__text">Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
+            </div>
+
+            <div class="contact-card__phone">
+                <h4 class="contact-card__heading">Phone</h4>
+                <ul class="contact-card__list-numbers">
+                    <li>8 800 700 60 50</li>
+                    <li>8 800 700 60 51</li>
+                </ul>
+            </div>
+
+            <div class="contact-card__online">
+                <h4 class="contact-card__heading">Online service</h4>
+                <ul class="contact-card__list-online">
+                    <li><a href="mailto:lorem@mail.ru">lorem@mail.ru</a></li>
+                    <li><a href="tel:+79112223344">+79112223344</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="message">
+
+            <h4 class="message__heading">Send us message</h4>
+
+            <label for="name" class="message__text">Full Name</label><br>
+            <input type="text" id="name" placeholder="Your name" class="message__input_row"><br>
+
+            <label for="email" class="message__text">Email</label><br>
+            <input type="email" id="email" placeholder="Your e-mail" class="message__input_row"><br>
+
+            <label for="letter" class="message__text">Message</label><br>
+            <textarea id="letter" cols="30" rows="10" placeholder="Your message"
+                class="message__input_area"></textarea><br>
+
+            <label for="btn"></label>
+            <input type="submit" id="btn" value="submit" class="message__btn">
+
+        </div>
+    </form>
+
+    <section class="container map">
+        <script async
+            src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A27d41ba0eb2633487eeb3ad87955bb8f04321a31ddf420d43460fdaf4d8c8304&amp;width=100%25&amp;height=480&amp;lang=ru_RU&amp;scroll=true"></script>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="vacation">
+                    <h3 class="vacation__heading">Interested to work with our team?</h3>
+                    <p class="vacation__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                    </p>
+                </div>
+                <a href="#" class="vacation__btn">Let’s Talk</a>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="container">
+            <div class="footer__bottom">
+                <ol class="contacts">
+                    <li class="contacts__list contacts_item">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    </li>
+                    <li class="contacts__list contacts_item">+79112223344</li>
+                    <li class="contacts__list ">lorem@mail.ru</li>
+                </ol>
+
+                <div class="copyright">
+                    <p class="copyright__text">2021 &copy; All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
